@@ -7,7 +7,7 @@ export const TwoWheelerInsuranceQuoteForm = () => {
              <InputField type="text" placeholder="Vehicle registration number"/><br/><br/>
              <InputField type="number" inputMode = "numeric" pattern="[0-9]" placeholder="Mobile number"/><br/><br/>
              <InputField type="email" placeholder="Email"/><br/><br/>
-             <Button buttontext="Get Quote" onClick={() => alert("Ok")}/><br/><br/>
+             <Button buttontext="Get Quote" onClick={() => alert("just checking the chnages")}/><br/><br/>
              <InputField type="checkbox"/> <span> I agree to the terms and conditions</span>
         </form>
     )
