@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "mahendra",
+      "password": "123456",
+      "role": "admin",
+      "token": "admin-token-123"
+    },
+    {
+      "id": "2",
+      "username": "customer1",
+      "password": "123456",
+      "role": "customer",
+      "token": "customer-token-456"
+    }
+  ],
+  "policies": [
+    {
+      "policyName": "Health Insurance",
+      "holder": "Yashvak",
+      "premium": 5000,
+      "status": "Active",
+      "id": "1"
+    }
+  ],
+  "routers": [
+    {
+      "para_of_router": "Cisco routing solutions deliver next-generation services that help boost productivity, meet business needs, and reduce operating costs.",
+      "head_of_router": "Cisco Enterprise Network Functions Virtualization",
+      "link_of_header": "http://localhost:5173/Cisco_enterprise_network_functions_virtualization",
+      "id": "ad9d"
+    },
+    {
+      "para_of_router": "Easily design, provision, and manage the services you trust on any platform.",
+      "head_of_router": "Cisco Intelligent Branch",
+      "link_of_header": "http://localhost:5173/cisco_intelligent_branch",
+      "id": "9f56"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
