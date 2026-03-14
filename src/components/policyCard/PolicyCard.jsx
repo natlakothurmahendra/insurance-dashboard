@@ -1,3 +1,4 @@
+import { Button } from "../Button"
 import { InputField } from "../formComponents/InputField"
 import styles from "./policyCard.module.css"
 export const PolicyCard = ({h3text, p3text, spantext, h4text, liItems}) => {
@@ -8,6 +9,7 @@ export const PolicyCard = ({h3text, p3text, spantext, h4text, liItems}) => {
         <p>{p3text}</p>
         <span>{spantext}</span>
         <h4>{h4text}</h4>
+        <Button buttontext="Show Expired Polices"/>
         <ul>
             {liItems.map((item, index) =>(
                 <li key={index}>{item}</li>
