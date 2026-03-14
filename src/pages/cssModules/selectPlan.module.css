@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.policyWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.checkboxrow{
+    display: flex;
+}
+.cardboxrow{
+    display: flex;
+}
